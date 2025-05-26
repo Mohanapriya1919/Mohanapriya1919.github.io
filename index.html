@@ -78,15 +78,19 @@
                 </div>
                 <div>
                     <p class="text-lg text-gray-300 mb-4">I'm a passionate data scientist and web developer, blending advanced analytics with user-centric web solutions. My work focuses on turning data into actionable insights and crafting seamless digital experiences.</p>
-                    <p class="text-gray-400"><strong>Education:</strong> B.Tech in Computer Science, [Your University], 2023</p>
-                    <p class="text-gray-400"><strong>Hobbies:</strong> Data visualization, AI research, open-source contributions</p>
+                    <p class="text-gray-400"><strong>Education:</strong> MS in Data Science, University at Buffalo, 2021</p>
                     <h3 class="text-xl font-semibold mt-6 mb-4 text-white">Skills</h3>
                     <div x-data="{ skills: [
                         { name: 'Python', level: 90 },
-                        { name: 'Scikit-learn', level: 85 },
-                        { name: 'React', level: 80 },
-                        { name: 'BeautifulSoup', level: 75 }
-                    ]}">
+                        { name: 'SQL', level: 85 },
+                        { name: 'Scikit-learn', level: 80 },
+                        { name: 'Selenium WebDriver', level: 85 },
+                        { name: 'Power BI', level: 80 },
+                        { name: 'Postman', level: 75 },
+                        { name: 'BeautifulSoup', level: 75 },
+                        { name: 'Jenkins', level: 70 },
+                        { name: 'Tableau', level: 70 }
+                        ]}">
                         <template x-for="skill in skills" :key="skill.name">
                             <div class="mb-4">
                                 <p x-text="skill.name" class="text-gray-300"></p>
